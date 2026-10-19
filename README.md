@@ -127,7 +127,7 @@ Drain bias **Vd = 0.5 V / 1.0 V**를 서로 다른 Workbench node로 구성해 �
 
 ## Repository Structure
 
-\`\`\`text
+```text
 TCAID-portfolio/
 ├── README.md
 ├── index.html
@@ -143,4 +143,4 @@ TCAID-portfolio/
 └── docs/
     ├── FIGURE_PROVENANCE.md
     └── SOURCE_MAPPING.md
-\`\`\`
+```
