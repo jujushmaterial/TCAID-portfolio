@@ -73,13 +73,26 @@ SFTP로 결과를 회수하면서 파일 상태를 확인하고 결과·실행·
 
 ## 실제 시연
 
+![실제 TCAID 프로그램 UI](assets/figures/intent.webp)
+
+
 ![TCAID 연구 작업 흐름](assets/figures/research_workflow.svg)
 
 ### SProcess 구조 생성
 
+| 2D 구조 | 3D Mesh |
+|---|---|
+| ![SProcess 2D 결과](assets/figures/mos2d.webp) | ![SProcess 3D 결과](assets/figures/mos3d.webp) |
+
+
 자연어 요청과 조건 확정으로 생성된 공정 코드를 격리 사본에 적용해 실행하였고, **SVisual에서 2D 구조 및 3D mesh가 생성된 결과**를 확인했습니다.
 
 ### SDevice 조건별 실험
+
+| SDevice 실험 | 지표 수치 비교 |
+|---|---|
+| ![SDevice 조건 분기](assets/figures/sdevice.webp) | ![SDevice 지표 비교](assets/figures/compare.webp) |
+
 
 Drain bias **Vd = 0.5 V / 1.0 V**를 서로 다른 Workbench node로 구성해 실행했습니다. 실행별 결과를 회수하고 **ion_max**를 추출하여 동일 지표의 수치를 비교했습니다.
 
@@ -118,6 +131,8 @@ Drain bias **Vd = 0.5 V / 1.0 V**를 서로 다른 Workbench node로 구성해 �
 
 **2026 차세대반도체 경진대회 · 시스템/SW 분야 · 최우수상**
 
+[![2026 차세대반도체 경진대회 TCAID 포스터](assets/figures/poster.webp)](assets/figures/tcaid_poster.jpg)
+
 ## 참고 자료
 
 - [TCAID 프로그램 저장소](https://github.com/jujushmaterial/TCAD-AI-Manager)
@@ -139,7 +154,11 @@ TCAID-portfolio/
 │   └── figures/
 │       ├── tcaid_logo.svg
 │       ├── system_architecture.svg
-│       └── research_workflow.svg
+│       ├── research_workflow.svg
+│       ├── logo.webp / intent.webp / approval.webp / workspace.webp
+│       ├── mos2d.webp / mos3d.webp / sdevice.webp
+│       ├── metric.webp / compare.webp / provenance.webp / safety.webp
+│       └── tcaid_poster.jpg / poster.webp
 └── docs/
     ├── FIGURE_PROVENANCE.md
     └── SOURCE_MAPPING.md
